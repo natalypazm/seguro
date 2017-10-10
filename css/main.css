@@ -1,3 +1,20 @@
 *{
 	outline: 1px solid red;
 }
+.marca-autos img{
+	left: 25%;
+	right: 25%;
+	position: relative;
+}
+.marca-autos p{
+	margin: 0;
+	text-align: center;
+}
+.mdl-button{
+	background-color: #107dad;
+	color:#fff;
+	text-align:left;
+}
+.mdl-button i{
+
+}
