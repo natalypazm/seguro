@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 <link rel="stylesheet" type="text/css" href="css/material.min.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
 </head>
 <body>
 <!-- Simple header with scrollable tabs. -->
@@ -29,9 +31,9 @@
     <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
       <div class="page-content">
       <div class="mdl-grid">
-      <div class="mdl-cell mdl-cell--8-col">
+      <div class="mdl-card mdl-cell mdl-cell--8-col">
       		<div class="mdl-grid">
-        			<div class="mdl-cell mdl-cell--6-col">Datos del Vehículo
+        			<div class="mdl-cell mdl-cell--6-col datos"><span>Datos del Vehículo</span>
         				<div class="mdl-grid marca-autos">
         					<div class="mdl-cell mdl-cell--4-col"><img width="50px" src="img/auto.png"><p>BMW</p></div>
         					<div class="mdl-cell mdl-cell--4-col"><img width="50px" src="img/auto.png"><p>BMW</p></div>
@@ -52,49 +54,46 @@
         				<div class="mdl-grid">
         					<div class="mdl-cell mdl-cell--12-col">
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-cell mdl-cell--12-col">Modelo de Vehículo <i class="material-icons">menu</i></button>
-        					</div>
-        					<div class="mdl-cell mdl-cell--12-col">
-        						<button class="mdl-button mdl-js-button mdl-button--raised mdl-cell mdl-cell--12-col">Año del Vehículo <i class="material-icons">menu</i></button>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-cell mdl-cell--12-col">Año del Vehículo <i class="material-icons">menu</i></button>
         					</div>
         				</div>
         			</div>
         		<div class="mdl-cell mdl-cell--6-col">
-        			<div class="mdl-cell mdl-cell--12-col">Datos del asegurado
+        			<div class="mdl-cell mdl-cell--12-col"><span>Datos del asegurado</span>
       				<div class="mdl-grid">
-        					<div class="mdl-cell mdl-cell--12-col">1</div>
-        					<div class="mdl-cell mdl-cell--12-col">2</div>
-        					<div class="mdl-cell mdl-cell--12-col">3</div>
-        					<div class="mdl-cell mdl-cell--12-col">1</div>	
+        					<input class="mdl-cell mdl-cell--12-col mdl-shadow--2dp" type="text" name="nombre" placeholder="Nombre Completo">
+        					<input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="Correo Electrónico">
+                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="hola">
+                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="hola">	
         				</div>
       			</div>
-      			<div class="mdl-cell mdl-cell--12-col">Datos del asegurado
+      			<div class="mdl-cell mdl-cell--12-col"><span>Datos del asegurado</span>
       				<div class="mdl-grid">
-        					<div class="mdl-cell mdl-cell--12-col">1</div>
-        					<div class="mdl-cell mdl-cell--12-col">2</div>
-        					<div class="mdl-cell mdl-cell--12-col">3</div>
-        					<div class="mdl-cell mdl-cell--12-col">1</div>	
-        				</div>
+                  <input class="mdl-cell mdl-cell--12-col mdl-shadow--2dp" type="text" name="nombre" placeholder="Nombre Completo">
+                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="Correo Electrónico">
+                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="hola">
+                </div>
       			</div>
-      			<div class="mdl-cell mdl-cell--12-col">Principales Aseguradoras
+      			<div class="mdl-cell mdl-cell--12-col"><h6>Principales Aseguradoras</h6>
       				<div class="mdl-grid">
-        					<div class="mdl-cell mdl-cell--4-col">1</div>
-        					<div class="mdl-cell mdl-cell--4-col">2</div>
-        					<div class="mdl-cell mdl-cell--4-col">3</div>		
+        					<div class="mdl-cell mdl-cell--12-col"><img width="350" src="img/image.png"></div>
+        					<!--<div class="mdl-cell mdl-cell--4-col">2</div>
+        					<div class="mdl-cell mdl-cell--4-col">3</div>-->		
         				</div>
       			</div>	
         		</div>
-      		<div class="mdl-cell mdl-cell--12-col">COTIZAR</div>	
+      		<div class="mdl-cell mdl-cell--12-col cotizar">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-cell mdl-cell--12-col" disabled="" data-upgraded=",MaterialButton">COTIZAR
+            </button>
+          </div>	
     		</div>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
+      <div class="mdl-cell mdl-cell--4-col mdl-cell--hide-phone">
       	<img style="height:470px; width:100%" src="img/girl.jpg">
-      	<div class="mdl-cell mdl-cell--12-col">hola</div>
+      	<div class="mdl-cell mdl-cell--12-col"><img width="430" src="img/image2.png"></div>
       </div>
     </div>
       	
-
-
-
 
 
       </div>

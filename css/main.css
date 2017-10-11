@@ -1,10 +1,18 @@
-*{
-	outline: 1px solid red;
+
+body{
+	background-color: #ecf0f1;
+	
+}
+span,h6{
+	color:#0288d1;
+	font-weight: 700;
+}
+.datos{
+	border-right: 1px solid #107dad;
 }
 .marca-autos img{
-	left: 25%;
-	right: 25%;
-	position: relative;
+	border:1px solid #cccccc;
+    padding: 10px 30px;
 }
 .marca-autos p{
 	margin: 0;
@@ -16,5 +24,32 @@
 	text-align:left;
 }
 .mdl-button i{
-
+	color: #91c3d9;
+	text-transform: none;
+}
+.cotizar .mdl-button--raised[disabled][disabled]{
+	background-color: #b3e5fc;
+	color:#fff;
+	font-weight:900;
+	text-align: center;
+	font-size:20px;
+}
+@media (min-width: 840px){
+	.mdl-cell {
+    	margin: 3px;
+}	
+}
+input.mdl.grid{
+	margin: 35px 8px;
+}
+input.mdl-cell{
+	background-color: #b1daf0;
+	border: 1px solid #b1daf0;
+	padding:5px 15px;
+	margin:4px 0;
+}
+	
+::placeholder { 
+	color:#e1f1f9;
+	font-weight: 700; 
 }
