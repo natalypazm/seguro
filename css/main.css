@@ -10,9 +10,14 @@ span,h6{
 .datos{
 	border-right: 1px solid #107dad;
 }
-.marca-autos img{
+.marca-autos .contenedor{
 	border:1px solid #cccccc;
-    padding: 10px 30px;
+    padding: 10px;
+    margin: auto;
+    width: 30px;
+}
+.marca-autos img{
+	width:100%;
 }
 .marca-autos p{
 	margin: 0;
@@ -23,9 +28,19 @@ span,h6{
 	color:#fff;
 	text-align:left;
 }
+.mdl-button:hover{
+	background:rgba(16, 125, 173, 0.8);
+	transform: scale(1.02);
+	transition: .3s
+}
+
 .mdl-button i{
 	color: #91c3d9;
 	text-transform: none;
+	position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
 }
 .cotizar .mdl-button--raised[disabled][disabled]{
 	background-color: #b3e5fc;
