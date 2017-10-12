@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Seguro</title>
+<title>Y Todo Seguro</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 <link rel="stylesheet" type="text/css" href="css/material.min.css">
@@ -10,23 +10,19 @@
 <meta charset="utf-8">
 </head>
 <body>
-<!-- Simple header with scrollable tabs. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">y todo seguro</span>
-    </div>
+    <section class="header">
+  <div class="mdl-cell mdl-cell--12-col">
+    <div class="box-blue"></div>
+            <a class="logo-img mdl-button mdl-js-button mdl-button--raised mdl-cell mdl-cell--12-col" disabled="" data-upgraded=",MaterialButton" href="index.html"><img class="mdl-cell mdl-cell--12-col" width="250px" src="img/logo-seguro.png"></a>
+  </div>
+</section>
+
     <!-- Tabs -->
-    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+    <!--<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
       <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Seguro de Vehículos</a>
       <a href="#scroll-tab-2" class="mdl-layout__tab">Seguro de Vida</a>
       <a href="#scroll-tab-3" class="mdl-layout__tab">Seguro Médico</a>
-    </div>
-  </header>
-  <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
-  </div>
+    </div>-->
   <main class="mdl-layout__content">
     <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
       <div class="page-content">
@@ -52,7 +48,7 @@
         					<div class="mdl-cell mdl-cell--4-col"><div class="contenedor"><img src="img/auto.png"></div><p>BMW</p></div>	
         				</div>
         				<div class="mdl-grid">
-        					<div class="mdl-cell mdl-cell--12-col">
+        					<div class="mdl-cell mdl-cell--12-col info-vehiculo">
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-cell mdl-cell--12-col">Modelo de Vehículo <i class="material-icons">menu</i></button>
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-cell mdl-cell--12-col">Año del Vehículo <i class="material-icons">menu</i></button>
         					</div>
@@ -62,16 +58,16 @@
         			<div class="mdl-cell mdl-cell--12-col"><span>Datos del asegurado</span>
       				<div class="mdl-grid">
         					<input class="mdl-cell mdl-cell--12-col mdl-shadow--2dp" type="text" name="nombre" placeholder="Nombre Completo">
-        					<input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="Correo Electrónico">
-                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="hola">
-                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="hola">	
+        					<input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="e-mail" placeholder="Correo Electrónico">
+                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="ciudad" placeholder="Ciudad">
+                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="edad" placeholder="Edad">	
         				</div>
       			</div>
       			<div class="mdl-cell mdl-cell--12-col"><span>Datos del asegurado</span>
       				<div class="mdl-grid">
-                  <input class="mdl-cell mdl-cell--12-col mdl-shadow--2dp" type="text" name="nombre" placeholder="Nombre Completo">
-                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="Correo Electrónico">
-                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="nombre" placeholder="hola">
+                  <input class="mdl-cell mdl-cell--12-col mdl-shadow--2dp" type="text" name="nombre" placeholder="Valor Comercial">
+                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="valor extras" placeholder="Valor Extras">
+                  <input class="mdl-cell mdl-cell--12-col demo-card-square mdl-shadow--2dp" type="text" name="valor total asegurado" placeholder="Valor Total Asegurado">
                 </div>
       			</div>
       			<div class="mdl-cell mdl-cell--12-col"><h6>Principales Aseguradoras</h6>
@@ -83,8 +79,7 @@
       			</div>	
         		</div>
       		<div class="mdl-cell mdl-cell--12-col cotizar">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-cell mdl-cell--12-col" disabled="" data-upgraded=",MaterialButton">COTIZAR
-            </button>
+            <a class="mdl-button mdl-js-button mdl-button--raised mdl-cell mdl-cell--12-col" disabled="" data-upgraded=",MaterialButton" href="cotizacion.html">COTIZAR</a>
           </div>	
     		</div>
       </div>
@@ -99,10 +94,10 @@
       </div>
     </section>
     <section class="mdl-layout__tab-panel" id="scroll-tab-2">
-      <div class="page-content">hola2</div>
+      <div class="page-content"></div>
     </section>
     <section class="mdl-layout__tab-panel" id="scroll-tab-3">
-      <div class="page-content">hola3</div>
+      <div class="page-content"></div>
     </section>
   </main>
 </div>
