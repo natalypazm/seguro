@@ -90,6 +90,9 @@ input.mdl-cell{
 	padding:0;
 	text-align: center;
 }
+.box-logo .mdl-cell{
+	padding:5px 0;
+}
 .box-logo .mdl-cell, .box .mdl-cell{
 	margin:0;
 }
